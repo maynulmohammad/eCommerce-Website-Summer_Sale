@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first_div {
+    display: flex;
+    background-color: #F9F6E2;
+    margin-bottom: 120px;
+
+}
+
+.div_main {
+    width: 50%;
+    text-align: center;
+    padding: 30px;
+}
+
+.first_div img {
+    width: 300px;
+}
+
+/* section */
+
+.main_section {
+    display: flex;
+    background-color: #F8F8F8;
+}
+
+.sectionDiv1 {
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.sectionDiv2 {
+    width: 30%;
+}
+
+.k_accesories {
+    margin: 10px;
+    padding: 30px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.k_accesories img {
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    width: 210px;
+    height: 280px;
+}
+
+
+
+
+
+/*  */
+
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 5px 0px 0px 5px;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+    margin-top: 60px;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin-top: 60px;
+    background: #E527B2;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 0px 5px 5px 0px;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #7b047b;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.buy_products {
+    margin-top: 20px;
+    background-color: #fbf4f4;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buy_products button {
+    background-color: #E527B2;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 38%;
+    color: #fff;
+}
+
+.buy_products h4 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+hr {
+    width: 80%;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(168, 87, 168);
+}
